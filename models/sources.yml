@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    database: AwsDataCatalog
+    schema: sample1_db
+    tables:
+      - name: raw_data_010
